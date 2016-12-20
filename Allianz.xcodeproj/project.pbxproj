@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD791E1D1E0995FF005516DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E1C1E0995FF005516DA /* AppDelegate.swift */; };
+		DD791E1F1E0995FF005516DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E1E1E0995FF005516DA /* ViewController.swift */; };
+		DD791E221E0995FF005516DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD791E201E0995FF005516DA /* Main.storyboard */; };
+		DD791E251E0995FF005516DA /* Allianz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD791E231E0995FF005516DA /* Allianz.xcdatamodeld */; };
+		DD791E271E0995FF005516DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD791E261E0995FF005516DA /* Assets.xcassets */; };
+		DD791E2A1E0995FF005516DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD791E281E0995FF005516DA /* LaunchScreen.storyboard */; };
+		DD791E351E0995FF005516DA /* AllianzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E341E0995FF005516DA /* AllianzTests.swift */; };
+		DD791E401E0995FF005516DA /* AllianzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E3F1E0995FF005516DA /* AllianzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD791E311E0995FF005516DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD791E111E0995FE005516DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD791E181E0995FE005516DA;
+			remoteInfo = Allianz;
+		};
+		DD791E3C1E0995FF005516DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD791E111E0995FE005516DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD791E181E0995FE005516DA;
+			remoteInfo = Allianz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD791E191E0995FF005516DA /* Allianz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allianz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD791E1C1E0995FF005516DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD791E1E1E0995FF005516DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD791E211E0995FF005516DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD791E241E0995FF005516DA /* Allianz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Allianz.xcdatamodel; sourceTree = "<group>"; };
+		DD791E261E0995FF005516DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD791E291E0995FF005516DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD791E2B1E0995FF005516DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD791E301E0995FF005516DA /* AllianzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllianzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD791E341E0995FF005516DA /* AllianzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianzTests.swift; sourceTree = "<group>"; };
+		DD791E361E0995FF005516DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD791E3B1E0995FF005516DA /* AllianzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllianzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD791E3F1E0995FF005516DA /* AllianzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianzUITests.swift; sourceTree = "<group>"; };
+		DD791E411E0995FF005516DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD791E161E0995FE005516DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E2D1E0995FF005516DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E381E0995FF005516DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD791E101E0995FE005516DA = {
+			isa = PBXGroup;
+			children = (
+				DD791E1B1E0995FF005516DA /* Allianz */,
+				DD791E331E0995FF005516DA /* AllianzTests */,
+				DD791E3E1E0995FF005516DA /* AllianzUITests */,
+				DD791E1A1E0995FF005516DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD791E1A1E0995FF005516DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD791E191E0995FF005516DA /* Allianz.app */,
+				DD791E301E0995FF005516DA /* AllianzTests.xctest */,
+				DD791E3B1E0995FF005516DA /* AllianzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD791E1B1E0995FF005516DA /* Allianz */ = {
+			isa = PBXGroup;
+			children = (
+				DD791E1C1E0995FF005516DA /* AppDelegate.swift */,
+				DD791E1E1E0995FF005516DA /* ViewController.swift */,
+				DD791E201E0995FF005516DA /* Main.storyboard */,
+				DD791E261E0995FF005516DA /* Assets.xcassets */,
+				DD791E281E0995FF005516DA /* LaunchScreen.storyboard */,
+				DD791E2B1E0995FF005516DA /* Info.plist */,
+				DD791E231E0995FF005516DA /* Allianz.xcdatamodeld */,
+			);
+			path = Allianz;
+			sourceTree = "<group>";
+		};
+		DD791E331E0995FF005516DA /* AllianzTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD791E341E0995FF005516DA /* AllianzTests.swift */,
+				DD791E361E0995FF005516DA /* Info.plist */,
+			);
+			path = AllianzTests;
+			sourceTree = "<group>";
+		};
+		DD791E3E1E0995FF005516DA /* AllianzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD791E3F1E0995FF005516DA /* AllianzUITests.swift */,
+				DD791E411E0995FF005516DA /* Info.plist */,
+			);
+			path = AllianzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD791E181E0995FE005516DA /* Allianz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD791E441E0995FF005516DA /* Build configuration list for PBXNativeTarget "Allianz" */;
+			buildPhases = (
+				DD791E151E0995FE005516DA /* Sources */,
+				DD791E161E0995FE005516DA /* Frameworks */,
+				DD791E171E0995FE005516DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Allianz;
+			productName = Allianz;
+			productReference = DD791E191E0995FF005516DA /* Allianz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD791E2F1E0995FF005516DA /* AllianzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD791E471E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzTests" */;
+			buildPhases = (
+				DD791E2C1E0995FF005516DA /* Sources */,
+				DD791E2D1E0995FF005516DA /* Frameworks */,
+				DD791E2E1E0995FF005516DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD791E321E0995FF005516DA /* PBXTargetDependency */,
+			);
+			name = AllianzTests;
+			productName = AllianzTests;
+			productReference = DD791E301E0995FF005516DA /* AllianzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD791E3A1E0995FF005516DA /* AllianzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD791E4A1E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzUITests" */;
+			buildPhases = (
+				DD791E371E0995FF005516DA /* Sources */,
+				DD791E381E0995FF005516DA /* Frameworks */,
+				DD791E391E0995FF005516DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD791E3D1E0995FF005516DA /* PBXTargetDependency */,
+			);
+			name = AllianzUITests;
+			productName = AllianzUITests;
+			productReference = DD791E3B1E0995FF005516DA /* AllianzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD791E111E0995FE005516DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mariachis;
+				TargetAttributes = {
+					DD791E181E0995FE005516DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YFJ48SR2KW;
+						ProvisioningStyle = Automatic;
+					};
+					DD791E2F1E0995FF005516DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YFJ48SR2KW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD791E181E0995FE005516DA;
+					};
+					DD791E3A1E0995FF005516DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YFJ48SR2KW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD791E181E0995FE005516DA;
+					};
+				};
+			};
+			buildConfigurationList = DD791E141E0995FE005516DA /* Build configuration list for PBXProject "Allianz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD791E101E0995FE005516DA;
+			productRefGroup = DD791E1A1E0995FF005516DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD791E181E0995FE005516DA /* Allianz */,
+				DD791E2F1E0995FF005516DA /* AllianzTests */,
+				DD791E3A1E0995FF005516DA /* AllianzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD791E171E0995FE005516DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD791E2A1E0995FF005516DA /* LaunchScreen.storyboard in Resources */,
+				DD791E271E0995FF005516DA /* Assets.xcassets in Resources */,
+				DD791E221E0995FF005516DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E2E1E0995FF005516DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E391E0995FF005516DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD791E151E0995FE005516DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD791E251E0995FF005516DA /* Allianz.xcdatamodeld in Sources */,
+				DD791E1F1E0995FF005516DA /* ViewController.swift in Sources */,
+				DD791E1D1E0995FF005516DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E2C1E0995FF005516DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD791E351E0995FF005516DA /* AllianzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD791E371E0995FF005516DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD791E401E0995FF005516DA /* AllianzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD791E321E0995FF005516DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD791E181E0995FE005516DA /* Allianz */;
+			targetProxy = DD791E311E0995FF005516DA /* PBXContainerItemProxy */;
+		};
+		DD791E3D1E0995FF005516DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD791E181E0995FE005516DA /* Allianz */;
+			targetProxy = DD791E3C1E0995FF005516DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD791E201E0995FF005516DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD791E211E0995FF005516DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD791E281E0995FF005516DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD791E291E0995FF005516DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD791E421E0995FF005516DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD791E431E0995FF005516DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD791E451E0995FF005516DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = Allianz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.Allianz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD791E461E0995FF005516DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = Allianz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.Allianz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD791E481E0995FF005516DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = AllianzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.AllianzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allianz.app/Allianz";
+			};
+			name = Debug;
+		};
+		DD791E491E0995FF005516DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = AllianzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.AllianzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allianz.app/Allianz";
+			};
+			name = Release;
+		};
+		DD791E4B1E0995FF005516DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = AllianzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.AllianzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Allianz;
+			};
+			name = Debug;
+		};
+		DD791E4C1E0995FF005516DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
+				INFOPLIST_FILE = AllianzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mariachi.AllianzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Allianz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD791E141E0995FE005516DA /* Build configuration list for PBXProject "Allianz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD791E421E0995FF005516DA /* Debug */,
+				DD791E431E0995FF005516DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD791E441E0995FF005516DA /* Build configuration list for PBXNativeTarget "Allianz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD791E451E0995FF005516DA /* Debug */,
+				DD791E461E0995FF005516DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD791E471E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD791E481E0995FF005516DA /* Debug */,
+				DD791E491E0995FF005516DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD791E4A1E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD791E4B1E0995FF005516DA /* Debug */,
+				DD791E4C1E0995FF005516DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD791E231E0995FF005516DA /* Allianz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD791E241E0995FF005516DA /* Allianz.xcdatamodel */,
+			);
+			currentVersion = DD791E241E0995FF005516DA /* Allianz.xcdatamodel */;
+			path = Allianz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD791E111E0995FE005516DA /* Project object */;
+}

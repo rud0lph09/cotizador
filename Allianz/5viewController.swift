@@ -85,6 +85,10 @@ extension CotizadorController {
         return 3
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.callToFinish()
+    }
+    
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let size = CGSize(width: self.view.frame.width - 70, height: self.collection.frame.height - 100)
         return size

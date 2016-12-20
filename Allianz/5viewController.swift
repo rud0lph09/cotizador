@@ -75,7 +75,9 @@ class CotizadorController: UIViewController, UICollectionViewDelegate, UICollect
 extension CotizadorController {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "priceCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "priceCell", for: indexPath) as! tinyCell
+        
+        cell.button.addTarget(self, action: #selector(callToFinish), for: .touchUpInside)
         
         return cell
     }

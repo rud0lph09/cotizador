@@ -476,7 +476,7 @@
                                     <inset key="sectionInset" minX="51" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="priceCell" id="XXW-VI-7Ac">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="priceCell" id="XXW-VI-7Ac" customClass="tinyCell" customModule="Allianz" customModuleProvider="target">
                                         <rect key="frame" x="51" y="66.5" width="230" height="301"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -536,6 +536,9 @@
                                             <constraint firstAttribute="bottom" secondItem="u2Z-os-Xtq" secondAttribute="bottom" id="itH-Xe-oeO"/>
                                             <constraint firstItem="u2Z-os-Xtq" firstAttribute="leading" secondItem="XXW-VI-7Ac" secondAttribute="leading" id="ulD-05-PTS"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="button" destination="eWO-bK-ij4" id="Vmm-PW-Lnp"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>

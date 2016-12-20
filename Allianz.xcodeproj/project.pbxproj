@@ -20,6 +20,7 @@
 		DD791E511E09BAFB005516DA /* 3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E501E09BAFB005516DA /* 3ViewController.swift */; };
 		DD791E531E09BB1E005516DA /* 3aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E521E09BB1E005516DA /* 3aViewController.swift */; };
 		DD791E551E09BB38005516DA /* 4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E541E09BB38005516DA /* 4ViewController.swift */; };
+		DDBAC4FF1E09EF69007FC1E7 /* tinyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBAC4FE1E09EF69007FC1E7 /* tinyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DD791E501E09BAFB005516DA /* 3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 3ViewController.swift; path = ../3ViewController.swift; sourceTree = "<group>"; };
 		DD791E521E09BB1E005516DA /* 3aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3aViewController.swift; sourceTree = "<group>"; };
 		DD791E541E09BB38005516DA /* 4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4ViewController.swift; sourceTree = "<group>"; };
+		DDBAC4FE1E09EF69007FC1E7 /* tinyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tinyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				DD791E521E09BB1E005516DA /* 3aViewController.swift */,
 				DD791E541E09BB38005516DA /* 4ViewController.swift */,
 				DD3C070C1E09D84900310E04 /* 5viewController.swift */,
+				DDBAC4FE1E09EF69007FC1E7 /* tinyCell.swift */,
 			);
 			name = Cotizador;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD791E551E09BB38005516DA /* 4ViewController.swift in Sources */,
+				DDBAC4FF1E09EF69007FC1E7 /* tinyCell.swift in Sources */,
 				DD791E531E09BB1E005516DA /* 3aViewController.swift in Sources */,
 				DD791E4F1E09BAEF005516DA /* 1ViewController.swift in Sources */,
 				DD791E251E0995FF005516DA /* Allianz.xcdatamodeld in Sources */,

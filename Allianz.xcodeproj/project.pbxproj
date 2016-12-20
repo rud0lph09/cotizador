@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3C070D1E09D84900310E04 /* 5viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C070C1E09D84900310E04 /* 5viewController.swift */; };
 		DD791E1D1E0995FF005516DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E1C1E0995FF005516DA /* AppDelegate.swift */; };
 		DD791E1F1E0995FF005516DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E1E1E0995FF005516DA /* ViewController.swift */; };
 		DD791E221E0995FF005516DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD791E201E0995FF005516DA /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		DD791E2A1E0995FF005516DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD791E281E0995FF005516DA /* LaunchScreen.storyboard */; };
 		DD791E351E0995FF005516DA /* AllianzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E341E0995FF005516DA /* AllianzTests.swift */; };
 		DD791E401E0995FF005516DA /* AllianzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E3F1E0995FF005516DA /* AllianzUITests.swift */; };
+		DD791E4F1E09BAEF005516DA /* 1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E4E1E09BAEF005516DA /* 1ViewController.swift */; };
+		DD791E511E09BAFB005516DA /* 3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E501E09BAFB005516DA /* 3ViewController.swift */; };
+		DD791E531E09BB1E005516DA /* 3aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E521E09BB1E005516DA /* 3aViewController.swift */; };
+		DD791E551E09BB38005516DA /* 4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD791E541E09BB38005516DA /* 4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD3C070C1E09D84900310E04 /* 5viewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5viewController.swift; sourceTree = "<group>"; };
 		DD791E191E0995FF005516DA /* Allianz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allianz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD791E1C1E0995FF005516DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD791E1E1E0995FF005516DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		DD791E3B1E0995FF005516DA /* AllianzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllianzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD791E3F1E0995FF005516DA /* AllianzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianzUITests.swift; sourceTree = "<group>"; };
 		DD791E411E0995FF005516DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD791E4E1E09BAEF005516DA /* 1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1ViewController.swift; sourceTree = "<group>"; };
+		DD791E501E09BAFB005516DA /* 3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 3ViewController.swift; path = ../3ViewController.swift; sourceTree = "<group>"; };
+		DD791E521E09BB1E005516DA /* 3aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3aViewController.swift; sourceTree = "<group>"; };
+		DD791E541E09BB38005516DA /* 4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DD791E1C1E0995FF005516DA /* AppDelegate.swift */,
-				DD791E1E1E0995FF005516DA /* ViewController.swift */,
+				DD791E4D1E09BAA9005516DA /* Cotizador */,
 				DD791E201E0995FF005516DA /* Main.storyboard */,
 				DD791E261E0995FF005516DA /* Assets.xcassets */,
 				DD791E281E0995FF005516DA /* LaunchScreen.storyboard */,
@@ -126,6 +136,19 @@
 				DD791E411E0995FF005516DA /* Info.plist */,
 			);
 			path = AllianzUITests;
+			sourceTree = "<group>";
+		};
+		DD791E4D1E09BAA9005516DA /* Cotizador */ = {
+			isa = PBXGroup;
+			children = (
+				DD791E4E1E09BAEF005516DA /* 1ViewController.swift */,
+				DD791E1E1E0995FF005516DA /* ViewController.swift */,
+				DD791E501E09BAFB005516DA /* 3ViewController.swift */,
+				DD791E521E09BB1E005516DA /* 3aViewController.swift */,
+				DD791E541E09BB38005516DA /* 4ViewController.swift */,
+				DD3C070C1E09D84900310E04 /* 5viewController.swift */,
+			);
+			name = Cotizador;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD791E551E09BB38005516DA /* 4ViewController.swift in Sources */,
+				DD791E531E09BB1E005516DA /* 3aViewController.swift in Sources */,
+				DD791E4F1E09BAEF005516DA /* 1ViewController.swift in Sources */,
 				DD791E251E0995FF005516DA /* Allianz.xcdatamodeld in Sources */,
+				DD3C070D1E09D84900310E04 /* 5viewController.swift in Sources */,
 				DD791E1F1E0995FF005516DA /* ViewController.swift in Sources */,
+				DD791E511E09BAFB005516DA /* 3ViewController.swift in Sources */,
 				DD791E1D1E0995FF005516DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +544,7 @@
 				DD791E461E0995FF005516DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD791E471E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +553,7 @@
 				DD791E491E0995FF005516DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD791E4A1E0995FF005516DA /* Build configuration list for PBXNativeTarget "AllianzUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +562,7 @@
 				DD791E4C1E0995FF005516DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
